@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background = "@drawable/background">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/white"
+        android:text="Regisztráció"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/userEmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/white"
+        android:textColor="#000000"
+        android:textColorHint="#808080"
+        android:hint="E-mail cím"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/userNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/name"
+        android:background="@color/white"
+        android:textColor="#000000"
+        android:textColorHint="#808080"
+        android:inputType="text"/>
+
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/password"
+        android:background="@color/white"
+        android:textColor="#000000"
+        android:textColorHint="#808080"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/passwordAgainEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Jelszó megerősítése"
+        android:background="@color/white"
+        android:textColor="#000000"
+        android:textColorHint="#808080"
+        android:inputType="textPassword" />
+
+
+    <Button
+        app:backgroundTint="@color/green"
+        android:id="@+id/registerButton"
+        android:layout_width="153dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center"
+        android:onClick="register"
+        android:text="@string/register"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <Button
+        app:backgroundTint="@color/green"
+        android:id="@+id/cancelButton"
+        android:layout_width="153dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="120dp"
+        android:onClick="cancel"
+        android:text="Mégsem"
+        app:layout_constraintVertical_bias="0.078" />
+
+
+</LinearLayout>

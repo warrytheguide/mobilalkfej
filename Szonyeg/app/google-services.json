@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "655593342951",
+    "project_id": "szonyeg-545ed",
+    "storage_bucket": "szonyeg-545ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655593342951:android:e7802b4819308f4f555f42",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaGY4xgz8hhbyOWxsA9vaS1B1nCw_lDVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Kárpit Királyság</string>
+    <string name="name">Felhasználó név</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="register">Regisztráció </string>
+    <string name="email">\n</string>
+
+    <string name="title_placeholder">Title</string>
+    <string name="item_placeholder">Leírás</string>
+    <string name="item_info_placeholder">Here is some news</string>
+    <string name="subtitle_detail_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices congue rutrum. Phasellus elementum ipsum ac convallis aliquam. Suspendisse eleifend eros a enim faucibus mollis. Nunc placerat, est vitae vestibulum blandit, dolor diam fringilla tellus, eu euismod mauris neque at neque.</string>
+
+    <string-array name="phone_labels">
+        <item>Otthon</item>
+        <item>Munkahely</item>
+        <item>Mobil</item>
+        <item>Egyéb</item>
+    </string-array>
+
+    <string-array name="shopping_item_names">
+        <item>Gyönyörű Piros Szőnyeg</item>
+        <item>Kis Kerek Kárpit</item>
+        <item>Középszerű Kárpit</item>
+        <item>Kivételesen Káprázatos Kárpit</item>
+        <item>Kicsit Karcsú Karpit</item>
+        <item>Nagymama Szőnyege</item>
+        <item>Szőnyeg</item>
+        <item>Tök Normális Szőnyeg</item>
+        <item>Szép Szőnyeg</item>
+        <item>Közepes Kerek Kárpit</item>
+    </string-array>
+
+    <string-array name="shopping_item_desc">
+        <item>Gyakorlatilag az egyik legszebb szőnyeg amelyet pénzért meg lehet venni.</item>
+        <item>Ez a szőnyeg nem épp a méretéről híres. Vagy bármi másról...</item>
+        <item>"Nem is rossz." -The VR Pisti</item>
+        <item>Na ez már egy szőnyeg ember!</item>
+        <item>Na most hagyom ezt abba, köszi a türelmed!</item>
+        <item>Sok szabadideje volt, az egyszer biztos.</item>
+        <item>A szőnyeg általában padlók illetve falak fedésére szolgáló szövet. Szőnyegnek nevezzük ezen túl a fonható,
+            köthető, csomózható anyagból készített, hasonló célú termékeket is.</item>
+        <item>Nincs itt semmi látnivaló!</item>
+        <item>Szép mintás szőnyeg, szép mintákkal. Egyetlen hátránya, hogy kicsit drága...</item>
+        <item>Okés szőnyeg, mi más kell még ide.</item>
+    </string-array>
+
+    <array name="shopping_item_rates">
+        <item>9.5</item>
+        <item>2.5</item>
+        <item>5</item>
+        <item>10</item>
+        <item>1</item>
+        <item>8.5</item>
+        <item>6</item>
+        <item>7.5</item>
+        <item>8</item>
+        <item>6</item>
+    </array>
+
+    <array name="shopping_item_images">
+        <item>@drawable/carp1</item>
+        <item>@drawable/carp2</item>
+        <item>@drawable/carp3</item>
+        <item>@drawable/carp4</item>
+        <item>@drawable/carp5</item>
+        <item>@drawable/carp6</item>
+        <item>@drawable/carp7</item>
+        <item>@drawable/carp8</item>
+        <item>@drawable/carp9</item>
+        <item>@drawable/carp10</item>
+    </array>
+
+    <array name="shopping_item_price">
+        <item>79000 Magyar Forint</item>
+        <item>6290 Magyar Forint </item>
+        <item>16000 Magyar Forint</item>
+        <item>Megfizethetetlen</item>
+        <item>Viheted ingyen!</item>
+        <item>Ajándékba kapod karácsonyra!</item>
+        <item>11300 Magyar Forint</item>
+        <item>1984 Magyar Forint</item>
+        <item>4892163619643 Magyar Forint</item>
+        <item>7800 Magyar Forint</item>
+    </array>
+</resources>
